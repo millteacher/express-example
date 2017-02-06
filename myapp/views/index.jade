@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  script(src="/requirejs/require.js",data-main="/javascripts/index/main.js")
+  #container(ng-controller='myCtrl')
+    h1= title
+    p Welcome to #{title}
+    mill-nav

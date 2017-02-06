@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "mill1983 <mill1983@126.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/millteacher/express-example",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "requirejs": "^2.3.2",
+    "bootstrap": "^3.3.7"
+  }
+}
