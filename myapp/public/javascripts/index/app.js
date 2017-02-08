@@ -1,3 +1,3 @@
 define(['angular'],function  (angular) {
-	return angular.module("myApp",[]);
+	return angular.module("myApp",['ngRoute']);
 });

@@ -1,12 +1,17 @@
 require.config({
 	paths:{
 		'angular':"/angular/angular",
+		'angular-route':"/angular-route/angular-route",
 		'nav':"/javascripts/common/nav"
 
 	},
 	shim:{
 		'angular':{
 			exports:'angular'
+		},
+		'angular-route':{
+			exports:'angular-route',
+			deps:['angular']
 		},
 		'nav':{
 			exports:'nav',
@@ -17,7 +22,14 @@ require.config({
 
 require([
 	'angular',
+	'angular-route',
+	'obj',
 	'app',
+	'route',
+	'homeCtrl',
+	'myService',
+	'myFillter',
+	'navHttp',
 	'myCtrl',
 	'nav'
 	
